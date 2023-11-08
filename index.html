@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>City Weather</title>
+    <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+      </style>
+</head>
+<body>
+    <div class="logo">WeatherWise</div>
+    <div class="container">
+        <h1>City Weather</h1>
+        <input type="text" id="city" placeholder="Enter city">
+        <button id="search" onclick="getWeather()">Search</button>
+        <div id="weather-info">
+            <h2>Weather in <span id="city-name"></span></h2>
+            <p>Temperature: <span id="temperature"></span>°C</p>
+            <p>Weather: <span id="weather"></span></p>
+            <p>Feels Like: <span id="wind"></span>°C</p>
+            <p>Wind Speed: <span id="rain"></span>m/s</p>
+        </div>
+    </div>
+    <script src="Assets/js/main.js"></script>
+</body>
+</html>
